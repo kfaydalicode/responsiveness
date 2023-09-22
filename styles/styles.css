@@ -8,26 +8,74 @@ Table of Contents:
     4. Media Queries
 ////////////////////////////////////////////////////////////////////////*/
 
+/*F9C48B peach*/
+/*F69051 atomic tangerine*/
+/*F26D40 burnt sienna*/
+/*260803 black bean*/
+/*FDEFEC seashell*/
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-
+html {
+    font-size: 16px;
+}
 body {
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
+    background-color: #F9C48B;
 }
+
+h2 {
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #F69051;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: #F26D40;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 
 
-
 /*////////////////////////
     3. Areas
 ////////////////////////*/
+.emrem, .vwh {
+    border: solid 1px grey;
+    margin: 1rem 0;
+    border-radius: 10px 10px;
+    padding: 0 2rem;
+    background-color: #FDEFEC;
 
+}
 
+.vwh {
+
+}
+
+img {
+    width: 100%;
+}
 
 
 /*////////////////////////
